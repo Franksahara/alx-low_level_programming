@@ -1,15 +1,13 @@
 #include <stdlib.h>
-
 #include <time.h>
-
 #include <stdio.h>
 
 /**
  *
- * * main - Entry point
+ * * main - assign random number to variable n and 
+ * print last digit
  *
- * *
- *
+ * 
  * * Return: Always 0 (Success)
  *
  * */
@@ -19,10 +17,6 @@ int main(void)
 {
 
 int n;
-
-srand(time(0));
-
-n = rand() - RAND_MAX / 2;
 
 srand(time(0));
 
