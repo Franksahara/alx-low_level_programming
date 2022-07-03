@@ -1,23 +1,21 @@
-#include <stdio.h>
+#include<stdio.h>
+
 /**
- * main - prints numbers from 00 to 99 separated by comma and space
- * printed in ascending order and using only putchar
- *
- * Return: Always 0 (success)
- */
+* main - Entry point
+*
+* Return: Always 0
+*/
 int main(void)
 {
-	int digit;
-
-	for (digit = o; digit <= 9; digit++)
-	{
-		putchar(digit + '0');
-		if (digit != 9)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-	}
-	putchar('\n');
-	return (0);
+int num;
+for (num = 0; num <= 9; num++)
+{
+putchar((num % 10) + '0');
+if (num == 9)
+continue;
+putchar(',');
+putchar(' ');
+}
+putchar('\n');
+return (0);
 }
