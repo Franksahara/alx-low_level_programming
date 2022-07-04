@@ -1,4 +1,4 @@
-i#include <stdio>
+#include <stdio.h>
 /**
  * main - prints all the numbers of base 16 in lowercase
  * followed by new line, using the only the putchar function and
