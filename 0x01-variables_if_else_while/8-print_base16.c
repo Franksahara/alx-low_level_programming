@@ -1,4 +1,4 @@
-#include <stdio>
+i#include <stdio>
 /**
  * main - prints all the numbers of base 16 in lowercase
  * followed by new line, using the only the putchar function and
@@ -12,8 +12,8 @@ int main(void)
 
 	for (digit = 0; digit <= 9; digit++)
 		putchar(digit + '0');
-	for (letter = 'a' letter <= 'f'; letter++)
-		putchar (letter);
+	for (letter = 'a'; letter <= 'f'; letter++)
+		putchar(letter);
 	putchar('\n');
 	return (0);
 }
