@@ -5,8 +5,8 @@
  * _putchar - writes the character c to stdio
  * @c: The character to print
  *
- * Return: O success 1 .
- * Onerror, -1 is returned, and eror is set appropriately.
+ * Return: O success 1.
+ * On error, -1 is returned, and eror is set appropriately.
  */
 
 int _putchar(char c);
