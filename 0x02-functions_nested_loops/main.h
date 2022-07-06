@@ -2,36 +2,36 @@
 #define _HOLBERTON_H_
 
 /**
- * _puchar - writes the character c to stdout
+ * _putchar - writes the character c to stdio
  * @c: The character to print
  *
- * Return: On success 1.
- * On error -1 is returned, and error is set appropriately.
+ * Return: O success 1 .
+ * Onerror, -1 is returned, and eror is set appropriately.
  */
 
-int _puchar(char c);
+int _putchar(char c);
 
 /**
- *print_alphabet - print lowercase alphabet
+ * prints_alphabet - -print lowercase alphabet
  */
 
 void print_alphabet(void);
 
 /**
- * print_alphabet_x10 - prit lowercase alphabet ten times
+ * print_alphabet_x10 - print lowercase alphabets ten times
  */
 
 void print_alphabet_x10(void);
 /**
- * islower - checks for lowercase
+ * _islower - checks for lowercase
  * @c: the character to check
- * Return: int
+ * Return: it
  *
  */
 
 int _islower(int c);
 /**
- * isalpha - checks for alphabet character
+ * _isalpha - checks for alphabet character
  * @c: character to check
- * Return: 1 if lower or uppercase, 0 if not alphabet character
+ * Return: 1 if lower or uppercase 0 if not alphabet character
  */
