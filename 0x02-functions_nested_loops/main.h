@@ -35,3 +35,5 @@ int _islower(int c);
  * @c: character to check
  * Return: 1 if lower or uppercase 0 if not alphabet character
  */
+
+#endif
