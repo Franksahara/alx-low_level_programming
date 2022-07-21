@@ -42,7 +42,6 @@ int is_palindrome(char *s)
  * Return: A reverse string
  */
 
-
 int helper_palindrome(char *s, int len)
 {
 	if (len <= 1)
